@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SusiScene.unity
+    guid: 27a0faa7c59ee244693c657ce6fe296b
+  - enabled: 1
+    path: Assets/Scenes/DessertScene.unity
+    guid: 8dcf2e1b53639c444999918db5eef9a4
+  - enabled: 1
+    path: Assets/Scenes/DrinksScene.unity
+    guid: f5e023c4da2a4034ea4e3dd7495f77d3
+  - enabled: 1
+    path: Assets/Scenes/ChineseScene.unity
+    guid: 94a2d9562a0fbe94da942d2d0e1bda45
   m_configObjects: {}
