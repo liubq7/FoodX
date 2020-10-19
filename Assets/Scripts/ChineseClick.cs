@@ -15,6 +15,6 @@ public class ChineseClick : MonoBehaviour
 
     private void OnButtonPress()
     {
-        Application.LoadLevel(3);
+        Application.LoadLevel(4);
     }
 }
