@@ -1070,6 +1070,8 @@ MonoBehaviour:
   - {fileID: 389353440}
   - {fileID: 1623360697}
   - {fileID: 616264613}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1335091610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,6 +1115,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1335091609}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 436.2kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1335091609}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Noodles, Pork, Egg
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1335091609}
         m_MethodName: SetDish
         m_Mode: 3
@@ -1582,6 +1606,8 @@ MonoBehaviour:
   - {fileID: 389353440}
   - {fileID: 1623360697}
   - {fileID: 616264613}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1684491305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1625,6 +1651,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1684491304}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3700kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1684491304}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pork
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1684491304}
         m_MethodName: SetDish
         m_Mode: 3
@@ -1806,6 +1854,8 @@ MonoBehaviour:
   - {fileID: 389353440}
   - {fileID: 1623360697}
   - {fileID: 616264613}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1868668238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1849,6 +1899,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1868668237}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 500cal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1868668237}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Beef, Mushroom, Toufu
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1868668237}
         m_MethodName: SetDish
         m_Mode: 3
@@ -1953,6 +2025,8 @@ MonoBehaviour:
   - {fileID: 389353440}
   - {fileID: 1623360697}
   - {fileID: 616264613}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1896986178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1996,6 +2070,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1896986177}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 305.9kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1896986177}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Corn, Cheese
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1896986177}
         m_MethodName: SetDish
         m_Mode: 3
