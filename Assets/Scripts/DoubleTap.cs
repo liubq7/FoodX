@@ -20,8 +20,8 @@ public class DoubleTap : MonoBehaviour
             {
                 if (Input.GetTouch(i).tapCount == 2)
                 {
-                    int n = Int32.Parse(Dish.name);
-                    Order(n);
+                    //int n = Int32.Parse(Dish.name);
+                    Order(0);
                 }
             }
         }
@@ -29,6 +29,6 @@ public class DoubleTap : MonoBehaviour
 
     public void Order(int n)
     {
-        AddedList.SushiMenu[i] = true;
+        AddedList.SushiMenu[n] = true;
     }
 }
