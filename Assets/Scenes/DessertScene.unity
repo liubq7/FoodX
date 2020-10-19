@@ -243,6 +243,8 @@ RectTransform:
   - {fileID: 1729200777}
   - {fileID: 1486718173}
   - {fileID: 684086512}
+  - {fileID: 741136621}
+  - {fileID: 1055707828}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -414,7 +416,7 @@ Transform:
   m_GameObject: {fileID: 258789613}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1026,6 +1028,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684086511}
   m_CullTransparentMesh: 0
+--- !u!1 &741136620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741136621}
+  - component: {fileID: 741136623}
+  - component: {fileID: 741136622}
+  m_Layer: 5
+  m_Name: CalTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &741136621
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741136620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 136411543}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 600}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &741136622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741136620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.972549, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: cal
+--- !u!222 &741136623
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741136620}
+  m_CullTransparentMesh: 0
 --- !u!1 &941745154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,6 +1234,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1055707827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055707828}
+  - component: {fileID: 1055707830}
+  - component: {fileID: 1055707829}
+  m_Layer: 5
+  m_Name: IngredientTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1055707828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055707827}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 136411543}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 500}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1055707829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055707827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.972549, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: ingresients
+--- !u!222 &1055707830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055707827}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1098069637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1336,8 +1492,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
-  calTitle: {fileID: 0}
-  ingredientTitle: {fileID: 0}
+  calTitle: {fileID: 741136622}
+  ingredientTitle: {fileID: 1055707829}
 --- !u!114 &1206798094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1381,6 +1537,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1206798093}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 245kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1206798093}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Banana, Chocolate, Ice cream
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1206798093}
         m_MethodName: SetDish
         m_Mode: 3
@@ -1649,8 +1827,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
-  calTitle: {fileID: 0}
-  ingredientTitle: {fileID: 0}
+  calTitle: {fileID: 741136622}
+  ingredientTitle: {fileID: 1055707829}
 --- !u!114 &1486718175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,6 +1872,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1486718174}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 452.2kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1486718174}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Egg, Flour, Milk
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1486718174}
         m_MethodName: SetDish
         m_Mode: 3
@@ -1987,6 +2187,28 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1673315276}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 119.5kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1673315276}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Egg, Milk, Suger
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1673315276}
         m_MethodName: SetDish
         m_Mode: 3
         m_Arguments:
@@ -2050,8 +2272,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
-  calTitle: {fileID: 0}
-  ingredientTitle: {fileID: 0}
+  calTitle: {fileID: 741136622}
+  ingredientTitle: {fileID: 1055707829}
 --- !u!1001 &1713822014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2221,8 +2443,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
-  calTitle: {fileID: 0}
-  ingredientTitle: {fileID: 0}
+  calTitle: {fileID: 741136622}
+  ingredientTitle: {fileID: 1055707829}
 --- !u!114 &1729200779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2266,6 +2488,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1729200778}
+        m_MethodName: SetCalTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 475kcal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1729200778}
+        m_MethodName: SetIngerdientTitle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Egg, Flour, Milk
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1729200778}
         m_MethodName: SetDish
         m_Mode: 3
