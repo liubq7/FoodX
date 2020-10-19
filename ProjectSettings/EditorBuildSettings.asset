@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChineseScene.unity
     guid: 94a2d9562a0fbe94da942d2d0e1bda45
+  - enabled: 1
+    path: Assets/Scenes/ListScene.unity
+    guid: 495179c809062a048958d8294df292c7
   m_configObjects: {}

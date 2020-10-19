@@ -22,6 +22,7 @@ public class DoubleTap : MonoBehaviour
                 {
                     //int n = Int32.Parse(Dish.name);
                     Order(0);
+                    Dish.SetActive(false);
                 }
             }
         }
@@ -30,5 +31,6 @@ public class DoubleTap : MonoBehaviour
     public void Order(int n)
     {
         AddedList.SushiMenu[n] = true;
+        TestText.pick = true;
     }
 }

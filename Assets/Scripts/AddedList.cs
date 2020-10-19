@@ -14,6 +14,7 @@ public class AddedList : MonoBehaviour
         DessertMenu = new bool[4];
         DrinkMenu = new bool[4];
         ChinesefoodMenu = new bool[4];
+
     }
 
     // Update is called once per frame
