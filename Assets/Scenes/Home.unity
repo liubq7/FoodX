@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 688975660}
   - component: {fileID: 688975659}
   - component: {fileID: 688975658}
+  - component: {fileID: 688975661}
   m_Layer: 5
   m_Name: DessertButton
   m_TagString: Untagged
@@ -418,6 +419,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688975656}
   m_CullTransparentMesh: 0
+--- !u!114 &688975661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688975656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c201172c8b3f11841b74966dbfc6fae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mButton: {fileID: 688975658}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,6 +972,7 @@ GameObject:
   - component: {fileID: 1659583820}
   - component: {fileID: 1659583819}
   - component: {fileID: 1659583818}
+  - component: {fileID: 1659583821}
   m_Layer: 5
   m_Name: ChineseButton
   m_TagString: Untagged
@@ -1064,6 +1079,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659583816}
   m_CullTransparentMesh: 0
+--- !u!114 &1659583821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659583816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463717692924a2946913600a2e2f7d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mButton: {fileID: 1659583818}
 --- !u!1 &1703376108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1181,7 @@ GameObject:
   - component: {fileID: 1741262404}
   - component: {fileID: 1741262403}
   - component: {fileID: 1741262402}
+  - component: {fileID: 1741262405}
   m_Layer: 5
   m_Name: DrinksButton
   m_TagString: Untagged
@@ -1259,6 +1288,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741262400}
   m_CullTransparentMesh: 0
+--- !u!114 &1741262405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741262400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27b41bd03077c54cbd7239a67ac59b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mButton: {fileID: 1741262402}
 --- !u!1 &1927347678
 GameObject:
   m_ObjectHideFlags: 0

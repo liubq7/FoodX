@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4333c7bca0d4bb6438660e5d590287ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sushis:
+  Dishs:
   - {fileID: 1967926567}
   - {fileID: 708530475}
   - {fileID: 1780024279}
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4333c7bca0d4bb6438660e5d590287ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sushis:
+  Dishs:
   - {fileID: 1967926567}
   - {fileID: 708530475}
   - {fileID: 1780024279}
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4333c7bca0d4bb6438660e5d590287ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sushis:
+  Dishs:
   - {fileID: 1967926567}
   - {fileID: 708530475}
   - {fileID: 1780024279}
@@ -2225,7 +2225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4333c7bca0d4bb6438660e5d590287ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sushis:
+  Dishs:
   - {fileID: 1967926567}
   - {fileID: 708530475}
   - {fileID: 1780024279}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DessertClick : MonoBehaviour
 {
     public Button mButton;
     // Start is called before the first frame update
