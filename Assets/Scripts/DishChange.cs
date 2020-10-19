@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class DishChange : MonoBehaviour
 {
     public GameObject[] Dishs;
+    public Text calTitle, ingredientTitle;
     // Start is called before the first frame update
     private void Start()
     {
@@ -34,5 +35,13 @@ public class DishChange : MonoBehaviour
         throw new NotImplementedException();
     }
 
+    public void SetCalTitle(string cal)
+    {
+        calTitle.text = cal;
+    }
 
+    public void SetIngerdientTitle(string ingredient)
+    {
+        ingredientTitle.text = ingredient;
+    }
 }

@@ -319,7 +319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BonanaBoat
+  m_Text: BananaBoat
 --- !u!222 &226885504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1336,6 +1336,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1206798094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,6 +1649,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1486718175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2046,6 +2050,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!1001 &1713822014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2215,6 +2221,8 @@ MonoBehaviour:
   - {fileID: 1713822015}
   - {fileID: 1098069638}
   - {fileID: 332862000}
+  calTitle: {fileID: 0}
+  ingredientTitle: {fileID: 0}
 --- !u!114 &1729200779
 MonoBehaviour:
   m_ObjectHideFlags: 0
