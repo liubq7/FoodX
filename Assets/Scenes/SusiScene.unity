@@ -1823,7 +1823,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: af7126d370989e148b2e27f7d40c03bf, type: 3}
       propertyPath: m_Name
-      value: Sushi_Beef
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af7126d370989e148b2e27f7d40c03bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2283,6 +2283,19 @@ MonoBehaviour:
   MovePivotKey: 308
   MultiDragKey: 308
   FingerTexture: {fileID: 2800000, guid: 25c48be3a87ea0f489a6d41c9c9a2194, type: 3}
+--- !u!114 &1780024283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780024279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0cdec12c93a984fa182cb9eb4abb00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dish: {fileID: 0}
 --- !u!1001 &1815110813
 PrefabInstance:
   m_ObjectHideFlags: 0
