@@ -5,16 +5,16 @@ using UnityEngine;
 public class DoubleTap : MonoBehaviour
 {
     public GameObject Dish;
-    public static bool[] SushiList, DessertList, DrinkList, ChinesefoodList;
+    public static bool[] SushiList = new bool[4];
+    public static bool[] DessertList = new bool[4];
+    public static bool[] DrinkList = new bool[4];
+    public static bool[] ChinesefoodList = new bool[4];
     
 
     // Start is called before the first frame update
     void Start()
     {
-        SushiList = new bool[4];
-        DessertList = new bool[4];
-        DrinkList = new bool[4];
-        ChinesefoodList = new bool[4];
+
     }
 
     // Update is called once per frame
