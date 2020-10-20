@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DessertClick : MonoBehaviour
+public class SceneChange : MonoBehaviour
 {
     public Button mButton;
     // Start is called before the first frame update
     void Start()
     {
-        Button btn = mButton.GetComponent<Button>();
-        btn.onClick.AddListener(OnButtonPress);
     }
 
-    private void OnButtonPress()
+    public void sceneChange(int i)
     {
-        Application.LoadLevel(2);
+        Application.LoadLevel(i);
     }
 }
