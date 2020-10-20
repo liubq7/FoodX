@@ -6,11 +6,12 @@ public class DoubleTap : MonoBehaviour
 {
     public GameObject Dish;
     public static bool pick;
-    public static string status;
     public static bool[] SushiMenu, DessertMenu, DrinkMenu, ChinesefoodMenu;
+
     // Start is called before the first frame update
     void Start()
     {
+        SushiMenu = new bool[4];
     }
 
     // Update is called once per frame
@@ -22,9 +23,9 @@ public class DoubleTap : MonoBehaviour
             {
                 if (Input.GetTouch(i).tapCount == 2)
                 {
-                    //int n = Int32.Parse(Dish.name);
-                    Order(0);
-                    Dish.SetActive(false);
+                    int n = int.Parse(Dish.name);
+                    Order(n);
+                    // Dish.SetActive(false);
                 }
             }
         }
@@ -34,7 +35,5 @@ public class DoubleTap : MonoBehaviour
     {
         SushiMenu[n] = true;
         pick = true;
-        status = "pick";
-        Debug.Log("success double tap");
     }
 }

@@ -11,12 +11,14 @@ public class TestText : MonoBehaviour
      // Start is called before the first frame update
     void Start()
     {
+        /*
         test.text = DoubleTap.status;
         if(DoubleTap.pick == true)
         {
             test.color = Color.red;
             Debug.Log("success change color and text");
         }
+        */
     }
 
     // Update is called once per frame

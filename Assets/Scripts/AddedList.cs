@@ -12,22 +12,24 @@ public class AddedList : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
+            
             if (DoubleTap.SushiMenu[i] == true)
             {
-                SushiLabel[i].color = Color.blue;
+                SushiLabel[i].color = Color.yellow;
             }
             if (DoubleTap.DessertMenu[i] == true)
             {
-                DessertLabel[i].color = Color.blue;
+                DessertLabel[i].color = Color.yellow;
             }
             if (DoubleTap.DrinkMenu[i] == true)
             {
-                DrinkLabel[i].color = Color.blue;
+                DrinkLabel[i].color = Color.yellow;
             }
             if (DoubleTap.ChinesefoodMenu[i] == true)
             {
-                ChinesefoodLabel[i].color = Color.blue;
+                ChinesefoodLabel[i].color = Color.yellow;
             }
+            
         }
     }
 
