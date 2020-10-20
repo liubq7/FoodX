@@ -10,27 +10,29 @@ public class AddedList : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
         {
-            
-            if (DoubleTap.SushiMenu[i] == true)
+            if (DoubleTap.SushiList[j] == true)
             {
-                SushiLabel[i].color = Color.yellow;
+                SushiLabel[j].color = Color.yellow;
             }
-            if (DoubleTap.DessertMenu[i] == true)
+
+            if (DoubleTap.DessertList[j] == true)
             {
-                DessertLabel[i].color = Color.yellow;
+                DessertLabel[j].color = Color.yellow;
             }
-            if (DoubleTap.DrinkMenu[i] == true)
+
+            if (DoubleTap.DrinkList[j] == true)
             {
-                DrinkLabel[i].color = Color.yellow;
+                DrinkLabel[j].color = Color.yellow;
             }
-            if (DoubleTap.ChinesefoodMenu[i] == true)
+
+            if (DoubleTap.ChinesefoodList[j] == true)
             {
-                ChinesefoodLabel[i].color = Color.yellow;
+                ChinesefoodLabel[j].color = Color.yellow;
             }
-            
         }
+
     }
 
     // Update is called once per frame
