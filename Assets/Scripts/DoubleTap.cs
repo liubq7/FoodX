@@ -5,10 +5,12 @@ using UnityEngine;
 public class DoubleTap : MonoBehaviour
 {
     public GameObject Dish;
+    public static bool pick;
+    public static string status;
+    public static bool[] SushiMenu, DessertMenu, DrinkMenu, ChinesefoodMenu;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -30,7 +32,9 @@ public class DoubleTap : MonoBehaviour
 
     public void Order(int n)
     {
-        AddedList.SushiMenu[n] = true;
-        TestText.pick = true;
+        SushiMenu[n] = true;
+        pick = true;
+        status = "pick";
+        Debug.Log("success double tap");
     }
 }
