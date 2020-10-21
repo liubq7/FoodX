@@ -8,6 +8,7 @@ public class DoubleTap : MonoBehaviour
     public GameObject Dish;
     public Button gotoAddedList;
 
+    public static int alreadyOrdered = 0;
     public static bool[] SushiList = new bool[4];
     public static bool[] DessertList = new bool[4];
     public static bool[] DrinkList = new bool[4];
@@ -17,7 +18,7 @@ public class DoubleTap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gotoAddedList.transform.Find("Text").GetComponent<Text>().text = AddedNumber.alreadyOrdered.ToString();
+        gotoAddedList.transform.Find("Text").GetComponent<Text>().text = alreadyOrdered.ToString();
     }
 
     // Update is called once per frame
@@ -35,11 +36,11 @@ public class DoubleTap : MonoBehaviour
                     int dishPick = int.Parse(pickName[1]);
                     Order(dishCatogory, dishPick);
                     Dish.SetActive(false);
-                    AddedNumber.alreadyOrdered++;
+                    alreadyOrdered++;
                 }
             }
         }
-        gotoAddedList.transform.Find("Text").GetComponent<Text>().text = AddedNumber.alreadyOrdered.ToString();
+        gotoAddedList.transform.Find("Text").GetComponent<Text>().text = alreadyOrdered.ToString();
     }
 
     public void Order(int i, int j)
