@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drink4
+  m_Text: Strawberry
 --- !u!222 &21404064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chinese Food3
+  m_Text: Pig
 --- !u!222 &56597638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dessert3
+  m_Text: Cupcake
 --- !u!222 &151494828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dessert4
+  m_Text: Donut
 --- !u!222 &203646207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chinese Food4
+  m_Text: Ramen
 --- !u!222 &389174649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sushi1
+  m_Text: Tamagoyaki
 --- !u!222 &599279586
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sushi4
+  m_Text: Mix Sushis
 --- !u!222 &828986566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sushi3
+  m_Text: Beef Sushi
 --- !u!222 &847264870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -895,7 +895,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dessert1
+  m_Text: Pudding
 --- !u!222 &987662580
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dessert2
+  m_Text: BananaBoat
 --- !u!222 &1001074492
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drink1
+  m_Text: Tea
 --- !u!222 &1187354195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1209,7 +1209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sushi2
+  m_Text: Salmon Sushi
 --- !u!222 &1361999317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1286,7 +1286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chinese Food2
+  m_Text: Nachos
 --- !u!222 &1464753017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1561,7 +1561,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drink3
+  m_Text: Chcolate
 --- !u!222 &1606188261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1638,7 +1638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chinese Food1
+  m_Text: Nabe
 --- !u!222 &1737135368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1751,7 +1751,6 @@ GameObject:
   - component: {fileID: 1861413964}
   - component: {fileID: 1861413963}
   - component: {fileID: 1861413967}
-  - component: {fileID: 1861413968}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1888,18 +1887,6 @@ MonoBehaviour:
   - {fileID: 1464753016}
   - {fileID: 56597637}
   - {fileID: 389174648}
---- !u!114 &1861413968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861413962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87168dd7b53d8e4596f29416f15f475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1883601740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +2028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drink2
+  m_Text: Parfait
 --- !u!222 &2046487807
 CanvasRenderer:
   m_ObjectHideFlags: 0
