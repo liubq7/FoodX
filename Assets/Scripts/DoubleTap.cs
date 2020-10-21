@@ -35,7 +35,7 @@ public class DoubleTap : MonoBehaviour
                     int dishCatogory = int.Parse(pickName[0]);
                     int dishPick = int.Parse(pickName[1]);
                     Order(dishCatogory, dishPick);
-                    Dish.SetActive(false);
+                    // Dish.SetActive(false);
                     alreadyOrdered++;
                 }
             }
