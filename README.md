@@ -6,7 +6,7 @@ FoodX is an Augmented Reality food menu Android mobile application, developed by
 Android Mobile Phone with Android version higher than 4.0
 
 ## Development Platform
-* Unity Editor 2019.2.13f1  
+* Unity 2019.2.13f1  
 * Vuforia 8.5.4
 
 ## Team Members
