@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ramen
+  m_Text: "Ramen \u20AC10"
 --- !u!222 &120642256
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1900,7 +1900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nachos
+  m_Text: "Nachos \u20AC5"
 --- !u!222 &1601367422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2292,7 +2292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pig
+  m_Text: "Pig \u20AC20"
 --- !u!222 &1809609903
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2788,7 +2788,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nabe
+  m_Text: "Nabe \u20AC5"
 --- !u!222 &1926845350
 CanvasRenderer:
   m_ObjectHideFlags: 0

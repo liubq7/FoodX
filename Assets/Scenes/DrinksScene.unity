@@ -342,7 +342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tea
+  m_Text: "Tea \u20AC1"
 --- !u!222 &742618626
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chocolate
+  m_Text: "Chocolate \u20AC2"
 --- !u!222 &820302728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strawberry
+  m_Text: "Strawberry \u20AC2"
 --- !u!222 &1338730644
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2552,7 +2552,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Parfait
+  m_Text: "Parfait \u20AC2"
 --- !u!222 &2008372448
 CanvasRenderer:
   m_ObjectHideFlags: 0

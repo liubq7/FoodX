@@ -518,7 +518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tamagoyaki
+  m_Text: "Nigiri  \u20AC2"
 --- !u!222 &397171359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1624,7 +1624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mix Sushis
+  m_Text: "Mix Sushis \u20AC7"
 --- !u!222 &1367244255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Salmon sushi
+  m_Text: "Salmon \u20AC3"
 --- !u!222 &1577688570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2306,7 +2306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Beef sushi
+  m_Text: "Beef sushi \u20AC3"
 --- !u!222 &1721992312
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -294,7 +294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BananaBoat
+  m_Text: "BananaBoat \u20AC3"
 --- !u!222 &226885504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cupcake
+  m_Text: "Cupcake \u20AC2"
 --- !u!222 &663119548
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1859,9 +1859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pudding
-
-'
+  m_Text: "Pudding \u20AC1.5\n"
 --- !u!222 &1407933937
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2279,9 +2277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Donut
-
-'
+  m_Text: "Donut \u20AC1.5\n"
 --- !u!222 &1603128555
 CanvasRenderer:
   m_ObjectHideFlags: 0
