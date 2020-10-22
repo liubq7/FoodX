@@ -13,7 +13,13 @@ public class DoubleTap : MonoBehaviour
     public static bool[] DessertList = new bool[4];
     public static bool[] DrinkList = new bool[4];
     public static bool[] ChinesefoodList = new bool[4];
-    
+
+    public static double totalPrice = 0;
+    public static double[] SushiPrice = { 2, 3, 3, 7 };
+    public static double[] DessertPrice = { 1, 2, 2, 2 };
+    public static double[] DrinkPrice = { 1.5, 3, 2, 1.5 };
+    public static double[] ChinesefoodPrice = { 5, 5, 20, 10 };
+
 
     // Start is called before the first frame update
     void Start()
@@ -49,15 +55,19 @@ public class DoubleTap : MonoBehaviour
         {
             case 0:
                 SushiList[j] = true;
+                totalPrice += SushiPrice[j];
                 break;
             case 1:
                 DessertList[j] = true;
+                totalPrice += DessertPrice[j];
                 break;
             case 2:
                 DrinkList[j] = true;
+                totalPrice += DrinkPrice[j];
                 break;
             case 3:
                 ChinesefoodList[j] = true;
+                totalPrice += ChinesefoodPrice[j];
                 break;
             default:
                 break;
