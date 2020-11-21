@@ -1,6 +1,6 @@
 # FoodX
 
-FoodX is an Augmented Reality food menu Android mobile application, developed by Unity 3D and Vuforia, which can provide users real-time dish appearance when they make orders.
+FoodX is an Augmented Reality food ordering Android mobile application, developed by Unity 3D and Vuforia, which can provide users real-time dish appearance when they make orders.
 
 
 ## Development Platform
